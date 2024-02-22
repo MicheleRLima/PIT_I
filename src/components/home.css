@@ -1,0 +1,43 @@
+.home {
+  background-color: #B4B4B8;
+  min-height: 100vh;
+  padding: 2rem;
+  margin: 0 auto;
+  color: #F2EFE5;
+  font-size: 20px;
+}
+
+.home-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-form div {
+  display: flex;
+  flex-direction: column;
+  max-width: 50vw;
+  min-width: 25vw;
+  margin: 0 auto;
+}
+
+.home-form label {
+  padding-bottom: 1rem;
+}
+
+.home-form input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.home-form button {
+ width: 10rem;
+ align-self: center;
+ border-radius: 6px;
+ border: none;
+ padding: 0.5rem;
+}
+
+.home p {
+  font-size: 16px;
+  font-weight: 700;
+}
